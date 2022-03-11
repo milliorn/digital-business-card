@@ -1,11 +1,13 @@
-import './App.css';
+import "./App.css";
+import React from "react";
+import { Hero } from "./components/Hero";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className="justify-center h-screen text-center text-white bg-zinc-800 ">
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
