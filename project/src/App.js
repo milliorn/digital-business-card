@@ -1,15 +1,11 @@
 import "./App.css";
-import portrait from "./images/portrait.jpg";
+import React from "react";
+import { Hero } from "./components/Hero";
+
 function App() {
   return (
-    <div className="flex flex-wrap justify-center">
-      <picture className="w-1/2 px-4">
-        <img
-          src={portrait}
-          alt="..."
-          className="h-auto max-w-full align-middle border-none rounded shadow-lg"
-        />
-      </picture>
+    <div className="justify-center h-screen text-center text-white bg-zinc-800 ">
+      <Hero />
     </div>
   );
 }
