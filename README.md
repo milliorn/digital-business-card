@@ -1,2 +1,5 @@
 # Digital-Business-Card
-Sample template for business cards
+
+Template for business cards done in React using Tailwind.
+
+![preview](./project/public/screenshot.png)
