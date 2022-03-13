@@ -1,5 +1,5 @@
 const interest =
-  "Passion to master Full-Stack along with Continuous Deployment and Delivery. I enjoy video game development on my spare time. When I'm not programming I play guitar, lift weights, video games, or working on cars.";
+  "Passion to master Full-Stack along with Continuous Deployment and Delivery. I enjoy video game development on my spare time. When I'm not programming I play guitar, lift weights, video games, or work on cars.";
 
 export function Interest() {
   return (
