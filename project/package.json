@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://milliorn.github.io/React-Digital-Business-Card",
+  "homepage": "http://milliorn.github.io/Business-Card",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
