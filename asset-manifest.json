@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Business-Card/static/css/main.64c88783.css",
-    "main.js": "/Business-Card/static/js/main.6d48482f.js",
-    "static/media/portrait.jpg": "/Business-Card/static/media/portrait.aa12d7d87b25f9b692a2.jpg",
-    "static/media/resume.pdf": "/Business-Card/static/media/resume.40a8b6765efdea8a90f5.pdf",
-    "index.html": "/Business-Card/index.html",
-    "main.64c88783.css.map": "/Business-Card/static/css/main.64c88783.css.map",
-    "main.6d48482f.js.map": "/Business-Card/static/js/main.6d48482f.js.map"
+    "main.css": "/Digital-Business-Card/static/css/main.64c88783.css",
+    "main.js": "/Digital-Business-Card/static/js/main.ec63eb3a.js",
+    "static/media/portrait.jpg": "/Digital-Business-Card/static/media/portrait.aa12d7d87b25f9b692a2.jpg",
+    "static/media/resume.pdf": "/Digital-Business-Card/static/media/resume.40a8b6765efdea8a90f5.pdf",
+    "index.html": "/Digital-Business-Card/index.html",
+    "main.64c88783.css.map": "/Digital-Business-Card/static/css/main.64c88783.css.map",
+    "main.ec63eb3a.js.map": "/Digital-Business-Card/static/js/main.ec63eb3a.js.map"
   },
   "entrypoints": [
     "static/css/main.64c88783.css",
-    "static/js/main.6d48482f.js"
+    "static/js/main.ec63eb3a.js"
   ]
 }
