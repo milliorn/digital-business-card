@@ -6,7 +6,7 @@ import VisibilitySensor from "react-visibility-sensor";
 export default function Portrait(): JSX.Element {
   return (
     <VisibilitySensor delayedCall>
-      <Img src={portrait} decode />
+      <Img src={portrait} alt="picture in hero section" decode />
     </VisibilitySensor>
   );
 }
