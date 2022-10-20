@@ -1,18 +1,18 @@
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
-const linkedin = "https://www.linkedin.com/in/scott-milliorn";
+export const twitter = "https://twitter.com/scottmilliorn" as string;
 
-export function Linkedin() {
+export default function Twitter(): JSX.Element {
   return (
     <button className="px-4 py-2 mx-1 font-bold capitalize rounded-lg bg-zinc-400 hover:bg-zinc-600 text-zinc-900">
       <a
         target="_blank"
         className="inline-flex text-4xl"
-        href={linkedin}
+        href={twitter}
         download
         rel="noreferrer"
       >
-        <AiFillLinkedin />
+        <AiFillTwitterCircle />
       </a>
     </button>
   );
