@@ -17,8 +17,7 @@
     "react-image": "^4.0.3",
     "react-scripts": "5.0.1",
     "react-visibility-sensor": "^5.1.1",
-    "typescript": "^4.8.4",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
