@@ -1,5 +1,5 @@
 import portrait from "../images/portrait.jpg";
 
-export function Hero() {
+export default function Hero(): JSX.Element {
   return <img className="w-full" src={portrait} alt="portrait" />;
 }
