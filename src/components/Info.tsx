@@ -13,7 +13,7 @@ export default function Info(): JSX.Element {
       <p className="my-1 font-semibold text-center text-gray-900 capitalize xl:text-lg">
         {description}
       </p>
-      <a href={githubUrl}>
+      <a href={githubUrl} aria-label="link to github">
         <span className="flex justify-center mx-auto my-1 font-semibold hover:font-bold">
           {githubUrl}
         </span>
