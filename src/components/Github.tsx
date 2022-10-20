@@ -6,6 +6,7 @@ export const githubUrl = "https://github.com/milliorn" as string;
 export default function Github(): JSX.Element {
   return (
     <button
+    aria-label="find me on github"
       type="button"
       className="px-4 py-2 mx-1 font-bold capitalize rounded-lg bg-zinc-400 hover:bg-zinc-600"
     >
