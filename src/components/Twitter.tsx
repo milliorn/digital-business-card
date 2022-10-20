@@ -2,6 +2,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 export const twitter = "https://twitter.com/scottmilliorn" as string;
 
+/* twitter button on bottom of screeen */
 export default function Twitter(): JSX.Element {
   return (
     <button

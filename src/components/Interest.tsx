@@ -1,6 +1,7 @@
 const interest =
   "Passion to master Full-Stack along with Continuous Deployment and Delivery. I enjoy video game development on my spare time. When I'm not programming I play guitar, lift weights, video games, or work on cars." as string;
 
+/* short paragraph of myself */
 export default function Interest(): JSX.Element {
   return (
     <div className="px-6 pt-4 pb-2">

@@ -1,5 +1,6 @@
 import { HiDownload } from "react-icons/hi";
 
+/* link to my online resume to view or download */
 export default function Resume(): JSX.Element {
   return (
     <button
