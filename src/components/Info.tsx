@@ -1,9 +1,9 @@
-import { github } from "./Github";
+import { githubUrl } from "./Github";
 
-const name = "Philip Milliorn";
-const description = "web developer | strength coach";
+const name = "Philip Milliorn" as string;
+const description = "web developer | strength coach" as string;
 
-export function Info() {
+export default function Info(): JSX.Element {
   return (
     <div className="px-6 py-4">
       <div className="my-2 text-xl font-bold text-center capitalize">
@@ -12,9 +12,9 @@ export function Info() {
       <p className="my-1 font-semibold text-center text-gray-900 capitalize xl:text-lg">
         {description}
       </p>
-      <a href={github}>
+      <a href={githubUrl}>
         <span className="flex justify-center mx-auto my-1 font-semibold hover:font-bold">
-          {github}
+          {githubUrl}
         </span>
       </a>
     </div>
