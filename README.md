@@ -5,6 +5,7 @@
 [![Lint Code Base](https://github.com/milliorn/Digital-Business-Card/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/super-linter.yml)
 [![OSSAR](https://github.com/milliorn/Digital-Business-Card/actions/workflows/ossar.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/ossar.yml)
 [![pages-build-deployment](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment)
+[![DeepSource](https://deepsource.io/gh/milliorn/Digital-Business-Card.svg/?label=active+issues&show_trend=true&token=fPQHM-iCKUX010--QSb8neLK)](https://deepsource.io/gh/milliorn/Digital-Business-Card/?ref=repository-badge)
 
 React Icons -> <https://react-icons.github.io/react-icons>
 
