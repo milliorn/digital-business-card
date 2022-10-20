@@ -2,9 +2,9 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Divider from "./components/Divider";
-
 import Hero from "./components/Hero";
 import Info from "./components/Info";
+import Interest from "./components/Interest";
 
 export function App(): JSX.Element {
   return (
@@ -15,6 +15,7 @@ export function App(): JSX.Element {
         <Contact />
         <Divider />
         <About />
+        <Interest />
       </div>
     </div>
   );
