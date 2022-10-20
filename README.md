@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Digital Business Card
+
+[![CodeQL](https://github.com/milliorn/Digital-Business-Card/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/codeql-analysis.yml)
+[![Dependency Review](https://github.com/milliorn/Digital-Business-Card/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/dependency-review.yml)
+[![Lint Code Base](https://github.com/milliorn/Digital-Business-Card/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/super-linter.yml)
+[![OSSAR](https://github.com/milliorn/Digital-Business-Card/actions/workflows/ossar.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/ossar.yml)
+[![pages-build-deployment](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment)
 
 React Icons -> <https://react-icons.github.io/react-icons>
 
