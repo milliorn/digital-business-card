@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Divider from "./components/Divider";
 
@@ -13,7 +14,7 @@ export function App(): JSX.Element {
         <Info />
         <Contact />
         <Divider />
-
+        <About />
       </div>
     </div>
   );
