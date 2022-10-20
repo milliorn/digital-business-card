@@ -7,9 +7,9 @@ export default function Github(): JSX.Element {
     <button className="px-4 py-2 mx-1 font-bold capitalize rounded-lg bg-zinc-400 hover:bg-zinc-600">
       <a
         className="inline-flex text-4xl "
-        href={githubUrl}
-        target="_blank"
+        href="https://github.com/milliorn"
         rel="noreferrer"
+        target="_blank"
       >
         <AiOutlineGithub />
       </a>
