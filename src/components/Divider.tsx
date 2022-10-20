@@ -1,3 +1,4 @@
+/* this draws a line to create a divider */
 export default function Divider(): JSX.Element {
   return (
     <div className="py-4">

@@ -3,6 +3,7 @@ import { githubUrl } from "./Github";
 const name = "Philip Milliorn" as string;
 const description = "web developer | strength coach" as string;
 
+/* houses some info after the hero */
 export default function Info(): JSX.Element {
   return (
     <div className="px-6 py-4">

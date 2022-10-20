@@ -6,6 +6,7 @@ import Info from "./components/Info";
 import Interest from "./components/Interest";
 import SocialMedia from "./components/SocialMedia";
 
+/* main app that houses all components */
 export function App(): JSX.Element {
   return (
     <div className="flex justify-center m-0 p-0">

@@ -1,6 +1,7 @@
 const about =
   "Web developer with enthusiasm for React frameworks, Tailwind or Bootstrap CSS and NodeJS. Experienced in game development and deployment." as string;
 
+/* house inforrmation about me */
 export default function About(): JSX.Element {
   return (
     <div className="px-6 pt-4 pb-2">
