@@ -37,9 +37,11 @@ Digital Business Card is a modern and responsive web application that allows use
 2. Navigate to the project directory: `cd Digital-Business-Card`
 3. Install the dependencies: `npm install`
 4. Set up a Firebase project:
+
 - Create a new Firebase project at https://firebase.google.com/
 - Enable Firebase Authentication and Firestore in the Firebase project console
 - Add your Firebase project configuration details to the `.env` file
+
 5. Start the development server: `npm start`
 6. Open your browser and visit `http://localhost:3000` to access the application.
 
