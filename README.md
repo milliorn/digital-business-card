@@ -1,10 +1,5 @@
 # Digital Business Card
 
-[![Dependency Review](https://github.com/milliorn/Digital-Business-Card/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/dependency-review.yml)
-[![pages-build-deployment](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/milliorn/Digital-Business-Card/actions/workflows/pages/pages-build-deployment)
-[![DeepSource](https://deepsource.io/gh/milliorn/Digital-Business-Card.svg/?label=active+issues&show_trend=true&token=fPQHM-iCKUX010--QSb8neLK)](https://deepsource.io/gh/milliorn/Digital-Business-Card/?ref=repository-badge)
-[![DeepSource](https://deepsource.io/gh/milliorn/Digital-Business-Card.svg/?label=resolved+issues&show_trend=true&token=fPQHM-iCKUX010--QSb8neLK)](https://deepsource.io/gh/milliorn/Digital-Business-Card/?ref=repository-badge)
-
 Digital Business Card is a modern and responsive web application that allows users to create and share their digital business cards online. With this application, you can create a professional and interactive representation of your business card, including contact information, social media links, and a personal bio. It provides a convenient way for professionals to showcase their information and make lasting impressions with potential clients and contacts.
 
 ## Features
