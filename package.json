@@ -42,7 +42,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/node": "18.11.9",
     "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",
+    "@types/react-dom": "18.2.18",
     "autoprefixer": "10.4.13",
     "gh-pages": "4.0.0",
     "postcss": "8.4.32",
