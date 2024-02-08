@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@types/node": "20.11.16",
+    "@types/node": "20.11.17",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "10.4.17",
     "gh-pages": "4.0.0",
