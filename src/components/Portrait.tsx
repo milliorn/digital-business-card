@@ -3,7 +3,7 @@ import portrait from "../images/portrait.webp";
 import VisibilitySensor from "react-visibility-sensor";
 
 /* wrap picture with a delay call and decode it until page finish loading */
-export default function Portrait(): JSX.Element {
+export default function Portrait() {
   return (
     <VisibilitySensor delayedCall>
       <Img

@@ -7,7 +7,7 @@ import Interest from "./components/Interest";
 import SocialMedia from "./components/SocialMedia";
 
 /* main app that houses all components */
-export function App(): JSX.Element {
+export function App() {
   return (
     <div className="flex justify-center m-0 p-0">
       <div className="max-w-sm overflow-x-hidden shadow-lg rounded-3xl bg-zinc-200">

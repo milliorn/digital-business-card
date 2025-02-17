@@ -1,7 +1,7 @@
 import { AiFillMail } from "react-icons/ai";
 
 /* send me an email */
-export default function Email(): JSX.Element {
+export default function Email() {
   return (
     <button
       aria-label="send me an email"

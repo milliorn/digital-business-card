@@ -3,7 +3,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 export const githubUrl = "https://github.com/milliorn" as string;
 
 /* button to link to my repos */
-export default function Github(): JSX.Element {
+export default function Github() {
   return (
     <button
       aria-label="find me on github"

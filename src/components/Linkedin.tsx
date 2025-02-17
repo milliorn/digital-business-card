@@ -3,7 +3,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 const linkedin = "https://www.linkedin.com/in/scott-milliorn" as string;
 
 /* button to link to website */
-export default function Linkedin(): JSX.Element {
+export default function Linkedin() {
   return (
     <button
       aria-label="find me on linkedln"
