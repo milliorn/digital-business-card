@@ -3,20 +3,14 @@ import { HiDownload } from "react-icons/hi";
 /* link to my online resume to view or download */
 export default function Resume() {
   return (
-    <button
+    <a
       aria-label="find my resume"
-      type="button"
-      className="px-4 py-2 ml-1 font-bold capitalize bg-gray-400 rounded-lg hover:bg-zinc-600 text-zinc-900"
+      href="https://milliorn.github.io/digital-resume/"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center min-w-12 min-h-12 px-6 py-3 text-xl font-bold capitalize rounded-lg bg-gray-400 hover:bg-zinc-600 text-zinc-900"
     >
-      <a
-        aria-label="link to resume"
-        className="inline-flex text-4xl text-zinc-800"
-        href="https://milliorn.github.io/digital-resume/"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <HiDownload />
-      </a>
-    </button>
+      <HiDownload className="text-3xl text-zinc-800" />
+    </a>
   );
 }
