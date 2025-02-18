@@ -1,18 +1,24 @@
 import { Img } from "react-image";
+import { useInView } from "react-intersection-observer";
 import portrait from "../images/portrait.webp";
-import VisibilitySensor from "react-visibility-sensor";
 
-/* wrap picture with a delay call and decode it until page finish loading */
-export default function Portrait(): JSX.Element {
+export default function Portrait() {
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Ensures it runs only once when the image appears
+    delay: 300, // Adjust delay if needed
+  });
+
   return (
-    <VisibilitySensor delayedCall>
-      <Img
-        src={portrait}
-        alt="picture in hero section"
-        width={384}
-        height={390}
-        decode
-      />
-    </VisibilitySensor>
+    <div ref={ref}>
+      {inView ? (
+        <Img
+          src={portrait}
+          alt="picture in hero section"
+          width={384}
+          height={390}
+          decode
+        />
+      ) : null}
+    </div>
   );
 }

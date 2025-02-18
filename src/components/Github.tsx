@@ -1,24 +1,17 @@
 import { AiOutlineGithub } from "react-icons/ai";
 
-export const githubUrl = "https://github.com/milliorn" as string;
+export const githubUrl = "https://github.com/milliorn";
 
-/* button to link to my repos */
-export default function Github(): JSX.Element {
+export default function Github() {
   return (
-    <button
+    <a
       aria-label="find me on github"
-      type="button"
-      className="px-4 py-2 mx-1 font-bold capitalize rounded-lg bg-zinc-400 hover:bg-zinc-600"
+      href={githubUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center justify-center w-14 h-14 rounded-lg bg-zinc-400 hover:bg-zinc-600 p-3"
     >
-      <a
-        aria-label="link to github"
-        className="inline-flex text-4xl "
-        href="https://github.com/milliorn"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <AiOutlineGithub />
-      </a>
-    </button>
+      <AiOutlineGithub className="text-4xl" />
+    </a>
   );
 }

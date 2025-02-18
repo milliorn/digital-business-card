@@ -3,7 +3,7 @@ const description = "web developer | strength coach" as string;
 const githubUrl = "https://github.com/milliorn" as string;
 
 /* houses some info after the hero */
-export default function Info(): JSX.Element {
+export default function Info() {
   return (
     <div className="px-6 py-4">
       <div className="my-2 text-xl font-bold text-center capitalize">
