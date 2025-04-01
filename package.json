@@ -5,7 +5,7 @@
   "homepage": "http://milliorn.github.io/digital-business-card",
   "dependencies": {
     "react": "19.1.0",
-    "react-dom": "19.0.0",
+    "react-dom": "19.1.0",
     "react-icons": "5.5.0",
     "react-image": "^4.1.0",
     "react-intersection-observer": "^9.16.0",
@@ -16,7 +16,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "22.13.8",
-    "@types/react-dom": "19.0.3",
+    "@types/react-dom": "19.0.4",
     "autoprefixer": "10.4.21",
     "gh-pages": "6.3.0",
     "postcss": "^8.5.3",
