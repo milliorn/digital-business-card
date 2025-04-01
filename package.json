@@ -17,7 +17,7 @@
     "@tailwindcss/postcss": "^4.0.9",
     "@types/node": "22.13.8",
     "@types/react-dom": "19.0.3",
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.4.21",
     "gh-pages": "6.3.0",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
