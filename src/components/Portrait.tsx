@@ -4,12 +4,13 @@ import portrait from "../images/portrait.webp";
 
 export default function Portrait() {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Ensures it runs only once when the image appears
+    triggerOnce: true, // Run only once when the image appears
     delay: 300, // Adjust delay if needed
   });
 
   return (
-    <div ref={ref}>
+    // Reserve the space for the image even when it hasn't loaded yet.
+    <div ref={ref} style={{ width: "384px", height: "390px" }}>
       {inView ? (
         <Img
           src={portrait}
