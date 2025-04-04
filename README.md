@@ -2,6 +2,11 @@
 
 Digital Business Card is a modern and responsive web application that allows users to create and share their digital business cards online. With this application, you can create a professional and interactive representation of your business card, including contact information, social media links, and a personal bio. It provides a convenient way for professionals to showcase their information and make lasting impressions with potential clients and contacts.
 
+## Preview
+
+![Lighthouse Score](./public/lighthouse_score.png)
+
+
 ## Features
 
 - Create and customize your digital business card with ease
@@ -33,12 +38,14 @@ Digital Business Card is a modern and responsive web application that allows use
 3. Install the dependencies: `npm install`
 4. Set up a Firebase project:
 
-- Create a new Firebase project at https://firebase.google.com/
+- Create a new Firebase project at <https://firebase.google.com/>
 - Enable Firebase Authentication and Firestore in the Firebase project console
 - Add your Firebase project configuration details to the `.env` file
 
-5. Start the development server: `npm start`
-6. Open your browser and visit `http://localhost:3000` to access the application.
+### Run Development Server
+
+1. Start the development server: `npm start`
+2. Open your browser and visit `http://localhost:3000` to access the application.
 
 ## Deployment
 
